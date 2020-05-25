@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Effect from './components/Effect';
+import FetchSimple from './components/FetchSimple';
 
 function App() {
     return (
@@ -8,7 +10,8 @@ function App() {
             <h1> useEffect demo </h1>
         </header>
         <main>
-
+            <Effect />
+            <FetchSimple />
         </main>
         </div>
     );
