@@ -13,11 +13,9 @@ code {
 }
 
 .loading {
-    /* transition: all 2s; */
+    /* Replace this with a loading spinner or whatever you want */
     background-color: #DAF1F5;
     animation: loading 2s infinite;
-    /* #DAF1F5
-    #9BA4EA */
 }
 
 @keyframes loading {
