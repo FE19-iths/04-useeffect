@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loading {
+    /* transition: all 2s; */
+    background-color: #DAF1F5;
+    animation: loading 2s infinite;
+    /* #DAF1F5
+    #9BA4EA */
+}
+
+@keyframes loading {
+    0%   { background-color: #DAF1F5; }
+    50%  { background-color: #9BA4EA; }
+    100% { background-color: #DAF1F5; }
+}
+
+
+
+/*  */

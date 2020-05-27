@@ -7,7 +7,10 @@ const Clock = () => {
         let intervalId = setInterval(() => {
             setTime(getTime());
         }, 1000);
-        return () => clearInterval(intervalId);
+        return () => {
+            console.log('Nu körs clearInterval');
+            clearInterval(intervalId)
+        };
     }, []);
 
     return (

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const Effect = () => {
     const [message, setMessage] = useState('inget meddelande');
     const [toggle, setToggle] = useState(true);

@@ -3,6 +3,7 @@ import './App.css';
 import Effect from './components/Effect';
 import FetchSimple from './components/FetchSimple';
 import Clock from './components/Clock';
+import Loading from './components/Loading';
 
 function App() {
     const [view, setView] = useState('clock');
@@ -20,6 +21,7 @@ function App() {
             <h1> useEffect demo </h1>
         </header>
         <main>
+            <Loading />
             <nav>
                 <button onClick={() => setView('effect')}>Effect hook</button>
                 <button onClick={() => setView('fetch')}>Fetch (Chuck Norris)</button>
